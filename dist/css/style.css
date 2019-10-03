@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.content {
+  width: 75%;
+  min-width: 200px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.headerLogo {
+  /*height: 40px;*/
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  background-image: url(../img/logo2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  margin: 30px 0;
+  color: white;
+}
+
+tabSelector {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-transform: capitalize;
+  background-color: salmon;
+}
+
+.tabby {
+  text-align: center;
+  /*border: 1px solid green;*/
+}
+
+.tab_display {
+  height: 24vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/background.jpg);
+
+  /*filter: blur(2px);*/
+}
+
+.overlay {
+  width: 100%;
+  height: inherit;
+  opacity: 1;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+p {
+  margin: 0 50px;
+}
+
+.active {
+  /*color: purple;*/
+  display: inline-block;
+  background-color: black;
+  opacity: 0.3;
+  border-bottom: red 2px solid;
+}
+
+.menutext {
+  margin-top: -20.5vh;
+}
+
+.tabby:hover {
+  cursor: pointer !important;
+  color: red;
+}
+
+ul {
+  list-style: none;
+  margin: 20px 50px;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+a {
+  color: white;
+}
+
